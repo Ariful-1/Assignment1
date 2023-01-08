@@ -1,0 +1,206 @@
+/* header styles */
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.header {
+    background-color: rgb(201, 190, 190);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-image: url('../images/banner/banner2.png');
+
+    height: 700px;
+}
+
+.banner {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-section {
+    text-align: right;
+    padding: 100px 200px 200px 800px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    color: #444343;
+}
+
+.btn-primary {
+    font-weight: 700;
+    color: #FFFFFF;
+    height: 45px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+}
+
+/* main */
+
+.failure {
+    display: flex;
+    align-items: center;
+    margin: 130px 150px 100px;
+    gap: 85px;
+}
+
+.failure-title {
+    font-weight: 600px;
+    font-size: 64px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.failure-descroption {
+    font-weight: 400;
+    font-size: 18;
+    color: #444343;
+}
+
+.fa {
+    color: #16D887;
+    ;
+}
+
+span {
+    display: block;
+
+}
+
+.plan {
+    text-align: center;
+    margin: 130px 150px 100px;
+}
+
+.plan h1 {
+    margin-bottom: 60px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.plan-step {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+    gap: 86px;
+}
+
+.plan-step h4 {
+    color: #737272;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.plan-step h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.ads {
+    margin: 130px 150px 100px;
+}
+
+.watch-ads {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    padding: 90px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.watch-ads button {
+    font-weight: 700;
+    color: #FD6E0A;
+    height: 45px;
+    background: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+}
+
+.watch-ads h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+/* footer */
+
+footer {
+    background-color: #000;
+    height: 500px;
+}
+
+.footer-step {
+    margin: 130px 150px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.footer-future {
+    margin-top: 100px;
+    width: 450px;
+}
+
+.footer-future p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.foooter-social-icon {
+    margin-top: 20px;
+    justify-content: space-around;
+
+    
+}
+
+.footer-subscribe {
+    margin-top: 100px;
+}
+
+.footer-subscribe input {
+    margin-top: 20px;
+    background-color: #000;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.subcribe-button {
+    display: block;
+    margin-top: 16px;
+    font-weight: 700;
+    color: #FD6E0A;
+    height: 45px;
+    background: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+}
