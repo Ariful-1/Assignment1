@@ -32,6 +32,8 @@
     font-weight: 700;
     font-size: 64px;
     margin-bottom: 20px;
+    font-family: ui-monospace;
+    color: #01022e;
 }
 
 .banner-description {
@@ -40,6 +42,7 @@
     padding-left: 100px;
     margin-bottom: 20px;
     color: #444343;
+    font-family: system-ui;
 }
 
 .btn-primary {
@@ -62,16 +65,17 @@
 }
 
 .failure-title {
-    font-weight: 600px;
     font-size: 64px;
     color: #151414;
     margin-bottom: 20px;
+    font-family: ui-monospace;
 }
 
 .failure-descroption {
     font-weight: 400;
     font-size: 18;
     color: #444343;
+    font-family: system-ui;
 }
 
 .fa {
@@ -81,6 +85,8 @@
 
 span {
     display: block;
+    color: #444343;
+    font-family: system-ui;
 
 }
 
@@ -133,25 +139,28 @@ span {
 }
 
 .watch-ads button {
-    font-weight: 700;
+    font-size: 17px;
     color: #FD6E0A;
-    height: 45px;
     background: #fff;
     border-radius: 5px;
     border: 0;
     padding: 10px 20px;
+    margin: 15px 0 0 0;
 }
 
 .watch-ads h1 {
     color: #FFFFFF;
     font-weight: 700;
+}
+.watch-ads h1 span {
+    color: #FFFFFF;
 
 }
 
 /* footer */
 
 footer {
-    background-color: #000;
+    background-color: #19910da6;
     height: 500px;
 }
 
@@ -172,11 +181,11 @@ footer {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+    font-family: system-ui;
 }
 
-.foooter-social-icon {
-    margin-top: 20px;
-    justify-content: space-around;
+.foooter-social-icon img {
+    margin: 20px 12px 0px 0px;
 
     
 }
@@ -187,8 +196,8 @@ footer {
 
 .footer-subscribe input {
     margin-top: 20px;
-    background-color: #000;
-    border: 1px solid #fff;
+    background-color: #fff;
+    border: 1px solid #ff8b00;
     padding: 10px 20px;
     border-radius: 5px;
 }
